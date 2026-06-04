@@ -35,8 +35,6 @@ for alumno in notas:
 print(f"Aprobados: {aprobados}")
 print(f"Desaprobados: {desaprobados}")
 
-
-
 #Ejercicio 09
 notas1 = {
     "Ana": 18,
@@ -53,4 +51,4 @@ for alumno in notas1:
         nota_alta = notas1[alumno]
         alumno_a = alumno
     
-print(alumno_a)
+print(f"Tiene mayor nota {alumno_a}")
